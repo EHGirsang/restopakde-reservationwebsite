@@ -1,0 +1,12 @@
+⭑, html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    background-color: blue;
+    flex-wrap: wrap;
+    justify-content: center;
+}
