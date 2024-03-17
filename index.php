@@ -12,23 +12,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-     <!--  -->
-     <style media="screen">
-        /*  */
-        ⭑, html, body {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        .container {
-            display: flex;
-            background-color: blue;
-            flex-wrap: wrap;
-            justify-content: center;
-        }
-     </style>
-     <!--  -->
+    <link rel="stylesheet" href="style.css?v=<?php echo time(); ?>">
     <title> <?= APP_NAME ?> </title>
 </head>
 <body>
