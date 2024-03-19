@@ -6,7 +6,13 @@
 
 .container {
     display: flex;
-    background-color: orange;
     flex-wrap: wrap;
     justify-content: center;
+    gap: 16px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
 }
