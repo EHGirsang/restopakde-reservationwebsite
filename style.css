@@ -8,13 +8,11 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 16px;
+    gap: 14px;
 }
 
 .card {
     display: flex;
     flex-direction: column;
     border: 1px solid black;
-    width: 44%;
-    height: 200px;
 }
