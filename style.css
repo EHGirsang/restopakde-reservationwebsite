@@ -14,8 +14,12 @@
 .card {
     display: flex;
     flex-direction: column;
-    border: 1px solid black;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
     padding: 8px;
     width: 35%;
     height: 180px;
+    cursor: pointer;
+    box-shadow: #eaeaea 0 4px 8px 4px;
 }
