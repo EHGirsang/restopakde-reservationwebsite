@@ -23,3 +23,8 @@
     cursor: pointer;
     box-shadow: #eaeaea 0 4px 8px 4px;
 }
+
+.card:hover {
+    scale: 1.035;
+    transition: all .3s ease-in-out;
+}

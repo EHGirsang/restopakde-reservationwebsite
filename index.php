@@ -16,22 +16,20 @@
     <title> <?= APP_NAME ?> </title>
 </head>
 <body>
-    <h1>Daftar Meja</h1>
+    <h1 align="center">Daftar Meja</h1>
     <!--  -->
     <div class="container">
-        
-            <?php
-                foreach ($select_meja as $meja) {
-            ?>
-            <!--  -->
-            <div class="card">
+        <?php
+            foreach ($select_meja as $meja) {
+        ?>
+        <!--  -->
+        <div class="card">
             <p><?= $meja['tipe_meja'] . " " . $meja['no_meja'] ?></p>
             <!--  -->
             <p><?= $meja['nama_pelanggan'] . " " . $meja['jumlah_orang'] ?></p> 
-            </div>
-            <!--  -->
-            <?php } ?>
-        
+        </div>
+        <!--  -->
+        <?php } ?>
     </div>
 </body>
 </html>
