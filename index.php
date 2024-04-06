@@ -26,7 +26,11 @@
         <div class="card">
             <p><?= $meja['tipe_meja'] . " " . $meja['no_meja'] ?></p>
             <!--  -->
-            <p><?= $meja['nama_pelanggan'] . " " . $meja['jumlah_orang'] ?></p> 
+            <p>
+                <?php echo $meja['nama_pelanggan'] == null && $meja['jumlah_orang'] == null ?
+                "meja kosong" : $meja['nama_pelanggan'] . " " . $meja['jumlah_orang']
+                ?>
+            </p> 
         </div>
         <!--  -->
         <?php } ?>
