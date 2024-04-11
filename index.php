@@ -28,7 +28,7 @@
             <!--  -->
             <p>
                 <?php echo $meja['nama_pelanggan'] == null && $meja['jumlah_orang'] == null ?
-                "meja kosong" : $meja['nama_pelanggan'] . " " . $meja['jumlah_orang']
+                "meja kosong" : $meja['nama_pelanggan'] . " " . $meja['jumlah_orang'] . " Orang"
                 ?>
             </p> 
         </div>
