@@ -47,6 +47,12 @@ form input, form button {
     font-size: 18px;
 }
 
+input {
+    border: transparent;
+    background-color: #eaeaea;
+    border-radius: 8px;
+}
+
 form button {
     background-color: blue;
     border: none;
