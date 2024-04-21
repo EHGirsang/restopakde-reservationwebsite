@@ -60,4 +60,11 @@ form button {
     font-size: 20px;
     font-weight: 600;
     border-radius: 8px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #eaeaea;
+    color: crimson;
+    transition: all .3s ease-in-out;
 }
