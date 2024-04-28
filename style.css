@@ -54,7 +54,7 @@ input {
 }
 
 form button {
-    background-color: blue;
+    background-color: #2C7865;
     border: none;
     color: white;
     font-size: 20px;
@@ -64,7 +64,6 @@ form button {
 }
 
 form button:hover {
-    background-color: #eaeaea;
-    color: crimson;
+    background-color: #1e5749;
     transition: all .3s ease-in-out;
 }
