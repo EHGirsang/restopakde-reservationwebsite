@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+html {
+    font-family: "Montserrat", sans-serif;
+}
+
 .container {
     display: flex;
     flex-wrap: wrap;
@@ -32,8 +36,16 @@
 .super-center {
     min-height: 88vh;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 16px;
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
 }
 
 form {
