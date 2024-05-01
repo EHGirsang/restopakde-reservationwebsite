@@ -1,3 +1,7 @@
+<?php
+    define ("APP_NAME","ISI MEJA KOSONG");
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,6 +12,7 @@
 </head>
 <body>
     <div class="super-center">
+        <h1><?= APP_NAME ?></h1>
         <form action="<?php $_SERVER['PHP_SELF'] ?>" method="post">
             
                 <label>Nama Pelanggan</label>
