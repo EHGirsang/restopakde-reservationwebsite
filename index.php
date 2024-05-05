@@ -23,7 +23,7 @@
             foreach ($select_meja as $meja) {
         ?>
         <!--  -->
-        <div class="card">
+        <div class="card" onclick="goToMeja()">
             <p><?= $meja['tipe_meja'] . " " . $meja['no_meja'] ?></p>
             <!--  -->
             <p>
@@ -35,5 +35,11 @@
         <!--  -->
         <?php } ?>
     </div>
+    <!-- gap -->
+    <script>
+        function goToMeja() {
+            alert("Aku akan berangkat ke meja")
+        }
+    </script>
 </body>
 </html>
