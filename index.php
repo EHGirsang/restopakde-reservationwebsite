@@ -23,8 +23,8 @@
             foreach ($select_meja as $meja) {
         ?>
         <!--  -->
-        <div class="card" onclick="goToMeja()">
-            <p><?= $meja['tipe_meja'] . " " . $meja['no_meja'] ?></p>
+        <div class="card" onclick="goToMeja(`<?= $meja['no_meja'] ?>`)">
+            <b><?= $meja['tipe_meja'] . " " . $meja['no_meja'] ?></b>
             <!--  -->
             <p>
                 <?php echo $meja['nama_pelanggan'] == null && $meja['jumlah_orang'] == null ?
@@ -37,8 +37,8 @@
     </div>
     <!-- gap -->
     <script>
-        function goToMeja() {
-            alert("Aku akan berangkat ke meja")
+        function goToMeja(no_meja) {
+            alert("Aku akan berangkat ke meja" + no_meja);
         }
     </script>
 </body>
