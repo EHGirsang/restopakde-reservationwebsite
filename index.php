@@ -38,7 +38,10 @@
     <!-- gap -->
     <script>
         function goToMeja(no_meja, nama_pelanggan) {
-            alert(no_meja + nama_pelanggan);
+            const url = "meja.php";
+            const params = `?no_meja=${no_meja}&nama_pelanggan=${nama_pelanggan}`
+            // fucking gap
+            window.location.replace(url, params);
         }
     </script>
 </body>
