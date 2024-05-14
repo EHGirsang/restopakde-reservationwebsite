@@ -1,5 +1,11 @@
 <?php
-    define ("APP_NAME","ISI MEJA KOSONG");
+    define ("APP_NAME","NOMOR MEJA ");
+    // 
+    $no_meja = "";
+    // 
+    if(isset($_GET['no_meja']) && $_GET['no_meja'] !== "") {
+        $no_meja = $_GET['no_meja'];
+    }
 ?>
 
 <!DOCTYPE html>
@@ -12,7 +18,7 @@
 </head>
 <body>
     <div class="super-center">
-        <h1><?= APP_NAME ?></h1>
+        <h1><?= APP_NAME; echo $no_meja ?></h1>
         <form action="<?php $_SERVER['PHP_SELF'] ?>" method="post">
             
                 <label>Nama Pelanggan</label>
